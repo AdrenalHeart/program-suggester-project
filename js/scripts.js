@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#program form").submit(function() {
-    var program = ["question1", "question2", "question3"];
+    var program = ["problem", "movie", "color", "animal", "hypothesis"];
 
     program.forEach(function(blank) {
       var userInput = $("input." + program).val();
